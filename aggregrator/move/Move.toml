@@ -1,0 +1,15 @@
+[package]
+name = "aggregrator"
+version = "1.0.0"
+authors = []
+
+[addresses]
+aggregrator_addr='93f4985f61189025d40e28c28c547afe595f3b0c39373a5214329cc2f12df682'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
