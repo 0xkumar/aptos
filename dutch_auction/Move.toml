@@ -1,0 +1,14 @@
+[package]
+name = "auction"
+version = "1.0.0"
+
+[addresses]
+dutch_auction_address = "0x3746261dd1147281e2874679eb37bb6309f981201a6c7efc6cb109510153ffa0"
+aptos_framework = "0x1"
+aptos_token_objects = "0x4"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-framework" }
+AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-token-objects" }
+
+[dev-dependencies]

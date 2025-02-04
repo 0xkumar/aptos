@@ -1,0 +1,15 @@
+[package]
+name = "marketplace"
+version = "1.0.0"
+authors = []
+
+[addresses]
+marketplace_addr ='e3802714be21c18cbe4599501021a1a4078835b96639f5792fbfd4ab905a6507'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]

@@ -1,0 +1,15 @@
+[package]
+name = "bill_board"
+version = "1.0.0"
+authors = []
+
+[addresses]
+billboard_addr = 'ec98af01cba3e2bc4d6e8a9f6c50e621975b1699fd6ebe06d33d0f3e3cea431c'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
